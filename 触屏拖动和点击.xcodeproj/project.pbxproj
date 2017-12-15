@@ -15,6 +15,7 @@
 		F1F47E1F1FE25B45001563BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F47E1E1FE25B45001563BE /* main.m */; };
 		F1F47E291FE25B45001563BE /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F47E281FE25B45001563BE /* _______Tests.m */; };
 		F1F47E341FE25B45001563BE /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F47E331FE25B45001563BE /* _______UITests.m */; };
+		F1F47E431FE261AB001563BE /* VCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F47E421FE261AB001563BE /* VCButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F1F47E2F1FE25B45001563BE /* 触屏拖动和点击UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "触屏拖动和点击UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F47E331FE25B45001563BE /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		F1F47E351FE25B45001563BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F47E411FE261AB001563BE /* VCButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCButton.h; sourceTree = "<group>"; };
+		F1F47E421FE261AB001563BE /* VCButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F1F47E101FE25B45001563BE /* AppDelegate.m */,
 				F1F47E121FE25B45001563BE /* ViewController.h */,
 				F1F47E131FE25B45001563BE /* ViewController.m */,
+				F1F47E411FE261AB001563BE /* VCButton.h */,
+				F1F47E421FE261AB001563BE /* VCButton.m */,
 				F1F47E151FE25B45001563BE /* Main.storyboard */,
 				F1F47E181FE25B45001563BE /* Assets.xcassets */,
 				F1F47E1A1FE25B45001563BE /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				F1F47E141FE25B45001563BE /* ViewController.m in Sources */,
 				F1F47E1F1FE25B45001563BE /* main.m in Sources */,
+				F1F47E431FE261AB001563BE /* VCButton.m in Sources */,
 				F1F47E111FE25B45001563BE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
